@@ -1,5 +1,5 @@
 // Different image sets for each gallery
-const gallery1Images = ["images/mindmap.jpg", "images/models.jpg"]; // source for button
+const gallery1Images = ["images/mindmap.jpg", "images/leveldesign.jpg", "images/models.jpg"]; // source for button
 const gallery2Images = ["images/certificate.jpg", "images/course.jpg", "images/mentorship.jpg"]; // source for link
 
 let currentImages = []; // Array to hold the currently displayed gallery
