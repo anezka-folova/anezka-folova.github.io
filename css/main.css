@@ -103,6 +103,36 @@ body {
     max-width: 1000px;
 }
 
+/* back arrow button */
+.back-arrow {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 1000; /* stays on top */
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	background-color: white;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 12px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+	transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .back-arrow:hover {
+	background-color: #f0f0f0;
+	color: #007BFF;
+  }
+
+  .back-arrow::before {
+	content: '←';
+	margin-right: 8px;
+	font-size: 20px;
+  }
+
 /* Close Button */
 .close {
     position: absolute;
